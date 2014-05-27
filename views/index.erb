@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+
+  <h1>NFL Standings</h1>
+
+  <ul>
+    <% @team_list.each do |team| %>
+     <li><a href="/leaderboard/<%="#{team}"%>"><%="#{team}"%></a></li>
+    <% end %>
+  </ul>
+
+
+</body>
+
+
+
+
+</html>
